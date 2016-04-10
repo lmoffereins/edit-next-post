@@ -11,7 +11,7 @@
  * Plugin Name:       Edit Next Post
  * Description:       Skip easily to next/previous when editing posts in the admin
  * Plugin URI:        https://github.com/lmoffereins/edit-next-post/
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Laurens Offereins
  * Author URI:        https://github.com/lmoffereins/
  * Text Domain:       edit-next-post
@@ -69,7 +69,7 @@ final class Edit_Next_Post {
 
 		/** Versions **********************************************************/
 
-		$this->version      = '1.0.0';
+		$this->version      = '1.0.1';
 
 		/** Paths *************************************************************/
 
