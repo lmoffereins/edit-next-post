@@ -204,6 +204,10 @@ final class Edit_Next_Post {
 		$prev = get_previous_post();
 		$next = get_next_post();
 
+		// Bail when neither previous or next post exist
+		if ( ! $prev && ! $next )
+			return;
+
 		?>
 
 		<div class="prev-post">
